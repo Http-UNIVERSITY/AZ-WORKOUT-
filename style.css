@@ -1,0 +1,43 @@
+
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width,
+	initial-scale-1>
+	<title>sample file </title>
+	<link rel="stylesheet" herf="Css/style.css">
+	<style type="text/css">
+		h1{
+			color: white;
+			font-size: 40px;
+		}
+		 video {
+    width: 600px;
+    height: 150px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: #000;
+    margin-bottom: 10px;
+  }
+    body {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  .member {
+    text-align: center;
+  }
+
+
+		body{
+			background-image:url(Images/gym.jpg);
+			background-size:cover;
+			background background-attachment:fixed;
+		}
+		.up{
+			colar: #A22B;
+		}
+	</style>
