@@ -1,42 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 <head>
-<title>
-		WORKOUT
-</title>
-<font face="lato" size="7"><font color="white"></font>
-	<meta charset="utf-8">
-	<meta name="viewport"content="width=device-width,
-	initial-scale-1>
-	<title>sample file </title>
-	<link rel="stylesheet" herf="Css/style.css">
-	<style type="text/css">
-		h1{
-			color: white;
-			font-size: 40px;
-		}
-		
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WORKOUT</title>
+<style>
+    body {
+        background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/...'); /* جایگذاری Base64 کامل عکس */
+        background-size: cover;
+        font-family: Lato, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    fieldset {
+        background-color: rgba(0,0,0,0.5);
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0 10px 0;
+        border-radius: 5px;
+        border: none;
+    }
+    input[type=submit], input[type=reset] {
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    .visit-btn {
+        padding: 12px 24px;
+        background-color: #2ea44f;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .visit-btn:hover {
+        background-color: #2c974b;
+    }
+</style>
+</head>
+<body>
 
+<h1>Login Form</h1>
 
-		body{
-			background-image:url(Images/444.jpg);
-			background-size:cover;
-		
-		}
-		.up{
-			colar: #A22B;
-		}
-	</style>
+<a href="https://http-university.github.io/AZ-WORKOUT-/" target="_blank" class="visit-btn">Visit site</a>
 
-<h1>Login Form </h1>
 <fieldset>
-<legend>personal information</legend>
-  <form action="page2.html">
- first name <input type="text" id="txtfirstname" name="txtfirstname"/><br/>
-  password<input type="password" id="pwdpass"/><br/>
-    <input type="RESET" value="RESET"/>
-   <input type="SUBMIT" value="SUBMIT"/><br/>
-   </form>
- </fieldset>
- </head>
- </html>
+<legend>Personal Information</legend>
+<form action="page2.html">
+    First Name: <input type="text" id="txtfirstname" name="txtfirstname"/><br/>
+    Password: <input type="password" id="pwdpass" name="pwdpass"/><br/>
+    <input type="reset" value="RESET"/>
+    <input type="submit" value="SUBMIT"/>
+</form>
+</fieldset>
+
+</body>
+</html>
